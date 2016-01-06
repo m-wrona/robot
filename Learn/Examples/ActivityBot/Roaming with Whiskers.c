@@ -26,17 +26,21 @@ int main()                                      // main function
     // If whisker(s) pressed, avoid obstacle.
     if(wR == 0)                                 // Just right whisker
     {
+      high(27);
       drive_speed(-100, -100);                  // Back up 0.5 seconds
       pause(500);
       drive_speed(-100, 100);                   // Turn left 0.22 seconds
       pause(220);
+      low(27);
     }
     else if(wL == 0)                            // Just left whisker
     {
+      high(26);
       drive_speed(-100, -100);                  // Back up 0.5 seconds
       pause(500);
       drive_speed(100, -100);                   // Turn right 0.25 seconds
       pause(220);
+      low(26);
     }
   }
 }
