@@ -1,8 +1,9 @@
 # robot
+
 Robot built based on [Propeller Activity Board](http://learn.parallax.com/activitybot)
 
 
-# Encoder Ticks and Distance
+## Encoder Ticks and Distance
 
 The ActivityBot updates the motor speeds 50 times per second, based on encoder feedback, to correct any small differences between how far it should have turned and how far it actually has turned.
 
@@ -32,7 +33,13 @@ b) 90 degree turn:
 166.2 mm ÷ 3.25 mm/tick ≈ 51.14 ticks ≈ 51 ticks.
 ```
 
-# Troubleshooting
+## Whiskers
+
+Robot able to dodge obstacles using whiskers.
+
+![alt tag](https://github.com/m-wrona/robot/blob/master/img/assembly/IMG_20151220_080047.jpg)
+
+## Troubleshooting
 
 1) Add your user to dialout group in order to be able to push stuff to COM ports
 
