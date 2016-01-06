@@ -2,6 +2,7 @@
 
 Robot built based on [Propeller Activity Board](http://learn.parallax.com/activitybot)
 
+![alt tag](https://github.com/m-wrona/robot/blob/master/img/32500_ActivityBot02.png)
 
 ## Encoder Ticks and Distance
 
